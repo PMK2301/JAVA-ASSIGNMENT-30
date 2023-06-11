@@ -9,10 +9,10 @@ public class Coconut
 {
     public static void main(String[] args) 
 	{
-        int water = 500; // Required milliliters of coconut water per week
-        int pulp = 300; // Required grams of coconut pulp per week
-        int waterA = 200; // Milliliters of coconut water in type A coconut
-        int pulpB = 150; // Grams of coconut pulp in type B coconut
+        int water = 500; 
+        int pulp = 300;
+        int waterA = 200;
+        int pulpB = 150;
 
         int total = calculateTotalCoconuts(water, pulp, waterA, pulpB);
 
